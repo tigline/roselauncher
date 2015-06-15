@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="next" type="id" />
+    <item name="pre" type="id" />
+    <item name="back" type="id" />
+    
+    <item name="main_tabhosts" type="id"/>
+    <item name="main_container" type="id" />
+    <item name="main_help" type="id" />
+    
+    <item name="main_sprite_text" type="id" />
+    <item name="main_sprite_image" type="id" />
+    
+    
+    <item name="media_record" type="id" />
+    <item name="media_search" type="id" />
+    <item name="media_collection" type="id" />
+    <item name="media_ktv" type="id" />
+    <item name="media_tv" type="id" />
+    <item name="media_recommand" type="id" />
+    <item name="media_newest_banner" type="id" />
+    <item name="media_film_category" type="id" />
+    
+	<item name="voice_bar_help" type="id" />
+	<item name="voice_bar_menu" type="id" />
+	
+	<item name="media_result_gridview" type="id" />
+	<item name="media_result_gridview_list_item_img" type="id" />
+	<item name="media_result_gridview_list_item_name" type="id" />
+	<item name="media_result_gridview_list_item_tag" type="id" />
+	<item name="media_result_category" type="id" />
+	<item name="media_result_title" type="id" />
+	<item name="media_result_tag_grid" type="id" />
+	<item name="media_result_tag_list_text" type="id" />
+	<item name="media_result_time_grid" type="id" />
+	<item name="media_result_time_text" type="id" />
+	
+	
+	<item name="media_detail_post" type="id" />
+	<item name="media_detail_play" type="id" />
+	<item name="media_detail_favorite" type="id" />
+	<item name="media_detail_recommand_list" type="id" />
+	<item name="media_detail_name" type="id" />
+	<item name="media_detail_actors" type="id" />
+	<item name="media_detail_time" type="id" />
+	<item name="media_detail_area" type="id" />
+	<item name="media_detail_category" type="id" />
+	<item name="media_detail_profile" type="id" />
+	<item name="media_detail_tv_serial" type="id" />
+	
+	
+	<item name="volume_view_seek_bar" type="id" />
+	<item name="volume_view_icon" type="id" />
+	<item name="volume_view_current_volume" type="id" />
+	
+	<item name="voice_dialog_img" type="id" />
+	<item name="voice_dialog_text" type="id" />
+	<item name="voice_dialog_seekbar" type="id" />
+	
+	
+</resources>

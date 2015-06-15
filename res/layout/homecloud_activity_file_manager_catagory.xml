@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/homecloud_color_bg"
+    android:id ="@+id/file_category_main_view"
+    android:orientation="vertical" >
+    
+    <include android:id="@+id/main_header" 
+        layout="@layout/homecloud_header_file_manager"/>
+    
+    <TextView
+        android:id="@+id/prompt_dir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:gravity="left"
+        android:singleLine="true"
+        android:ellipsize="middle"
+        android:text="主页"
+        android:textColor="@color/homecloud_color_text_dark"
+        android:textSize="20sp" />
+    <View android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="@color/homecloud_color_divider"/>
+
+    <GridView
+        android:id="@+id/filesgridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/homecloud_color_bg"
+        android:horizontalSpacing="2dip"
+        android:verticalSpacing="2dip"
+        android:columnWidth="400dip"
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/file_manager_main_btn_selector"
+        android:numColumns="4" />
+
+</LinearLayout>

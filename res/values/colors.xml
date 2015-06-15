@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="test_gray">#B8B8B8</color>
+    <color name="red">#FFC93437</color>
+    <color name="blue">#FF375BF1</color>
+    <color name="yellow">#FFF7D23E</color>
+    <color name="green">#FF34A350</color>
+    <color name="transparent_white">#80ffffff</color>
+    <color name="transparent">#00000000</color>
+    
+    <color name="white_10">#19ffffff</color>
+    <color name="darkBlue">#ff00008b</color>
+    <color name="Blue">#1E90FF</color> 
+    <color name="Green">#008000</color> 
+    <color name="Level1">#72d1dc</color>
+    <color name="Level2">#fde66d</color>
+    <color name="Level3">#c7e956</color>
+    <color name="Level4">#ff7f6c</color>
+    
+    <color name="main_btn_background_normal">#21DEAC</color>
+    <color name="main_btn_background_pressed">#65B9F5</color>
+    <color name="main_btn_background_focused">#65B9F5</color>
+    <color name="main_btn_background_disabled">#888888</color>
+
+    <color name="main_list_item_backgroud_select_border">#3C98D7</color>
+    <color name="main_list_item_backgroud_select_solid">#E2F0F9</color>
+    <color name="fragment_bg">#EBEBEB</color>
+    
+    <color name="air_condition_perfect">#FF00FF00</color>
+    <color name="air_condition_good">#FFA0A000</color>
+    <color name="air_condition_light_pollute">#FFFF8000</color>
+    <color name="air_condition_general_pollute">#FFFF0000</color>
+    <color name="air_condition_heavy_pollute">#FFA00050</color>
+    <color name="air_condition_baddly_pollute">#FF800030</color>
+    
+    <color name="host_general_bg">#FF5DB7D9</color>
+    <color name="host_selected_text_color">#FF7A7A7A</color>
+    
+    <color name="homecloud_color_bg">#ffffffff</color>
+    <color name="homecloud_color_divider">#ffd4d4d4</color>
+    <color name="homecloud_color_text_dark">#ff000000</color>
+    <color name="homecloud_color_text_grey">#ff9e9e9e</color>
+</resources>

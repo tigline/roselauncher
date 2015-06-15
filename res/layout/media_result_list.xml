@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    android:orientation="horizontal" >
+
+    <FrameLayout
+        android:layout_width="@dimen/media_result_menu_width"
+        android:layout_height="match_parent"
+        android:background="@drawable/media_left_bg" >
+
+        <LinearLayout
+            android:id="@id/media_result_category"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@id/media_result_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/media_list_title"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/media_title_padding_left"
+                android:textColor="@color/host_general_bg"
+                android:textSize="@dimen/main_title_cover_text_size" />
+
+            <GridView
+                android:id="@id/media_result_tag_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/media_tag_gridview_margin_top"
+                android:cacheColorHint="#00000000"
+                android:listSelector="@color/transparent"
+                android:numColumns="3" >
+            </GridView>
+
+            <GridView
+                android:id="@id/media_result_time_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/media_tag_gridview_margin_top"
+                android:cacheColorHint="#00000000"
+                android:listSelector="@color/transparent"
+                android:numColumns="4" >
+            </GridView>
+        </LinearLayout>
+
+        <Button
+            android:id="@id/next"
+            style="@style/MediaTagButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/media_detail_back_margin_top"
+            android:layout_marginLeft="@dimen/media_detail_next_margin_left"
+            android:text="@string/next_page" />
+        
+         <Button
+            android:id="@id/back"
+            style="@style/MediaTagButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/media_detail_back_margin_left"
+            android:layout_marginTop="@dimen/media_detail_back_margin_top"
+            android:text="@string/back" />
+    </FrameLayout>
+
+    <GridView
+        android:id="@id/media_result_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="#00000000"
+        android:listSelector="@color/transparent"
+        android:numColumns="5" >
+    </GridView>
+
+</LinearLayout>

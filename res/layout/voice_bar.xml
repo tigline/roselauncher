@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/voice_bar_bg"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@id/voice_bar_help"
+        android:layout_width="135px"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/voice_bar_help"
+        />
+    
+    <Button
+        android:id="@id/voice_bar_menu"
+        android:layout_width="135px"
+        android:layout_height="wrap_content" 
+        android:background="@drawable/voice_bar_home"
+        />
+
+</LinearLayout>

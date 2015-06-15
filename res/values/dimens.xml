@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. 
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	-->
+	
+    <dimen name="general_margin">30px</dimen>
+    <dimen name="main_host_margin_top">60px</dimen>
+    
+    <dimen name="media_columns_height">810px</dimen>
+    <dimen name="media_image_width_general">240px</dimen>
+    <dimen name="media_image_width_banner">480px</dimen>
+    <dimen name="media_film_height_">165px</dimen>
+    
+    <dimen name="media_image_padding">15px</dimen>
+    <dimen name="media_image_margin_top">30px</dimen>
+    
+    <dimen name="main_host_text_size">30px</dimen>
+    <dimen name="main_host_selected_text_size">36px</dimen>
+    <dimen name="main_title_cover_text_size">36px</dimen>
+    <dimen name="main_host_width">1414px</dimen>
+    <dimen name="main_host_height">100px</dimen>
+    <dimen name="main_hep_margin_left">20px</dimen>
+    <dimen name="main_hep_margin_bottom">10px</dimen>
+    
+
+    <dimen name="main_btn_favorite_text_padding_top">160px</dimen>
+    <dimen name="main_btn_ktv_text_padding_top">0px</dimen>
+    <dimen name="main_btn_latest_update_text_padding_top">300px</dimen>
+    <dimen name="main_btn_search_text_padding_top">160px</dimen>
+    
+    <dimen name="home_sprite_margin_left">47px</dimen>
+    <dimen name="home_sprite_margin_top">80px</dimen>
+    <dimen name="home_bubble_margin_left">19px</dimen>
+    <dimen name="home_bubble_margin_top">120px</dimen>
+    <dimen name="home_bubble_padding_top">60px</dimen>
+    
+    <dimen name="media_title_padding_left">30px</dimen>
+    <dimen name="media_tag_button_text_size">30px</dimen>
+    <dimen name="media_result_menu_width">350px</dimen>
+    <dimen name="media_tag_gridview_margin_top">60px</dimen>
+    <dimen name="media_tag_gridview_item_margin_top">30px</dimen>
+    
+    <dimen name="media_detail_list_height">750px</dimen>
+    <dimen name="media_detail_list_margin_top">100px</dimen>
+    <dimen name="media_detail_post_margin_left">125px</dimen>
+    <dimen name="media_detail_post_margin_top">65px</dimen>
+    <dimen name="media_detail_button_margin_top">60px</dimen>
+    <dimen name="media_detail_info_margin_left">70px</dimen>
+    <dimen name="media_detail_info_margin_top">25px</dimen>
+    <dimen name="media_detail_profile_margin_top">60px</dimen>
+    <dimen name="media_detail_profile_height">210px</dimen>
+    <dimen name="media_detail_name_text_size">60px</dimen>
+    <dimen name="media_detail_info_text_size">30px</dimen>
+    
+    <dimen name="media_detail_next_margin_left">40px</dimen>
+    <dimen name="media_detail_back_margin_top">900px</dimen>
+    <dimen name="media_detail_back_margin_left">230px</dimen>
+    
+    <dimen name="voice_dialog_img_margin_top">30px</dimen>
+    <dimen name="voice_dialog_img_margin_left">40px</dimen>
+    <dimen name="voice_dialog_text_margin_top">50px</dimen>
+    <dimen name="voice_dialog_text_margin_left">60px</dimen>
+    <dimen name="voice_dialog_text_max_width">650px</dimen>
+    <dimen name="voice_dialog_seekbar_width">360px</dimen>
+    <dimen name="voice_dialog_seekbar_height">10px</dimen>
+    
+    <dimen name="voice_dialog_text_size">30px</dimen>
+    
+   
+    
+	    <!-- Add-by-qinbl@tcl.com-begin -->
+    <dimen name="listview_item_margin_top">20dip</dimen>
+    
+    <dimen name="listview_text_size_large">26sp</dimen>
+    <dimen name="listview_text_size_medium">20sp</dimen>
+    <dimen name="listview_text_size_small">18sp</dimen>
+    
+    <dimen name="listview_text_margin_large">10dip</dimen>
+    <dimen name="listview_text_margin_small">5dip</dimen>
+    <dimen name="listview_margin">11dip</dimen> 
+    
+    <dimen name="gridlayout_item_imageview_margin">5dip</dimen> 
+    <!-- Add-by-qinbl@tcl.com-end -->
+</resources>

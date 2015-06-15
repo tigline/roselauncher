@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/file_manager_listview_item_selector"
+    android:orientation="horizontal" >
+    
+	<RadioButton  
+      android:id="@+id/item_sel_btn"   
+        android:layout_width="50dip"  
+        android:layout_height="50dip"  
+        android:layout_gravity="center"
+        android:button="@drawable/file_manager_radio_btn_selector"
+        android:focusable="false"/>  
+      
+    <TextView  
+        android:id="@+id/item_text"  
+        android:gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:textColor="@color/homecloud_color_text_dark"
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+         />  
+</LinearLayout>

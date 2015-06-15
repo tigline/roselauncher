@@ -1,0 +1,74 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="TextStyle"></style>
+
+    <style name="MainHostText" parent="TextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/main_host_text_size</item>
+    </style>
+
+    <style name="MainHostTextSelected" parent="TextStyle">
+        <item name="android:textColor">@color/host_selected_text_color</item>
+        <item name="android:textSize">@dimen/main_host_selected_text_size</item>
+    </style>
+
+    <style name="MainTitleCoverText" parent="TextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/main_title_cover_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MediaListItemText" parent="TextStyle">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/main_title_cover_text_size</item>
+    </style>
+
+    <style name="FilmCategoryButton">
+        <item name="android:background">@drawable/general_background</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/main_title_cover_text_size</item>
+    </style>
+
+    <style name="MediaTagButton">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/media_tag_button_text_size</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="MediaDetailInfoText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/media_detail_info_text_size</item>
+    </style>
+
+    <style name="window_anim">
+        <item name="@android:windowEnterAnimation">@anim/bottom_in</item>
+        <item name="@android:windowExitAnimation">@anim/bottom_out</item>
+    </style>
+
+    <style name="Theme_Transparent" parent="@android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+</resources>

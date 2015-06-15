@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_film_height_"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/FilmCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text="@string/tv_series"
+            />
+        
+        <Button
+            style="@style/FilmCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text="@string/tv_variety"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_film_height_"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/FilmCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text="@string/tv_cartoon"
+            />
+        
+        <Button
+            style="@style/FilmCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text="@string/tv_pe"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_film_height_"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/FilmCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text="@string/tv_funny"
+            />
+        
+        <Button
+            style="@style/FilmCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text="@string/tv_entertaiment"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_film_height_"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/FilmCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text="@string/tv_local"
+            />
+        
+        <Button
+            style="@style/FilmCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text="@string/tv_dubi"
+            />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/media_film_height_"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/FilmCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text="@string/tv_4k"
+            />
+        
+        <Button
+            style="@style/FilmCategoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:layout_weight="1"
+            android:text="@string/tv_1080"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/gridlayout_item_imageview_margin"
+        android:background="@drawable/file_manager_gridview_border" >
+
+        <ImageView
+            android:id="@+id/item_image_bk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/file_manager_music" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/item_image_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/file_manager_play" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/item_image_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:visibility="gone" >
+        </ImageView>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:ellipsize="middle"
+        android:singleLine="true"
+        android:textColor="@color/homecloud_color_text_dark"
+        android:textSize="16sp" >
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" >
+
+        <TextView
+            android:id="@+id/creator_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:singleLine="true"
+            android:text="@string/author"
+            android:textColor="@color/homecloud_color_text_grey"
+            android:textSize="16sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/creator_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/listview_text_margin_small"
+            android:layout_toRightOf="@id/creator_lable"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="@color/homecloud_color_text_grey"
+            android:textSize="16sp" >
+        </TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip" >
+
+        <TextView
+            android:id="@+id/size_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="left"
+            android:singleLine="true"
+            android:text="@string/size"
+            android:textColor="@color/homecloud_color_text_grey"
+            android:textSize="16sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/size_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/listview_text_margin_small"
+            android:layout_toRightOf="@id/size_lable"
+            android:gravity="right"
+            android:singleLine="true"
+            android:textColor="@color/homecloud_color_text_grey"
+            android:textSize="16sp" >
+        </TextView>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="@dimen/media_result_menu_width"
+        android:layout_height="match_parent"
+        android:background="@drawable/media_left_bg" >
+
+        <ListView
+            android:id="@id/media_detail_recommand_list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/media_detail_list_height"
+            android:layout_marginTop="@dimen/media_detail_list_margin_top"
+            android:cacheColorHint="#00000000"
+            android:listSelector="@color/transparent" >
+        </ListView>
+
+        <TextView
+            android:id="@id/media_result_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/media_list_title"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/media_title_padding_left"
+            android:textColor="@color/host_general_bg"
+            android:textSize="@dimen/main_title_cover_text_size" />
+
+        <Button
+            android:id="@id/back"
+            style="@style/MediaTagButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/media_detail_back_margin_left"
+            android:layout_marginTop="@dimen/media_detail_back_margin_top"
+            android:text="@string/back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@id/media_detail_post"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/media_detail_post_margin_left"
+            android:layout_marginTop="@dimen/media_detail_post_margin_top"
+            android:background="@drawable/detail_post_default" />
+
+        <Button
+            android:id="@id/media_detail_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/media_detail_post"
+            android:layout_below="@id/media_detail_post"
+            android:layout_marginTop="@dimen/media_detail_button_margin_top"
+            android:background="@drawable/detail_btn_play_bg_selector" />
+
+        <Button
+            android:id="@id/media_detail_favorite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/media_detail_play"
+            android:layout_toRightOf="@id/media_detail_play"
+            android:background="@drawable/detail_btn_favorite_bg_selector" />
+
+        <TextView
+            android:id="@id/media_detail_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/media_detail_post"
+            android:layout_marginLeft="@dimen/media_detail_info_margin_left"
+            android:layout_toRightOf="@id/media_detail_post"
+            android:text="@string/hello_world"
+            android:textColor="@color/white"
+            android:textSize="@dimen/media_detail_name_text_size" />
+
+        <TextView
+            android:id="@id/media_detail_actors"
+            style="@style/MediaDetailInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/media_detail_name"
+            android:layout_below="@id/media_detail_name"
+            android:layout_marginTop="@dimen/media_detail_info_margin_top"
+            />
+
+        <TextView
+            android:id="@id/media_detail_time"
+            style="@style/MediaDetailInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/media_detail_actors"
+            android:layout_below="@id/media_detail_actors"
+            android:layout_marginTop="@dimen/media_detail_info_margin_top"
+            />
+
+        <TextView
+            android:id="@id/media_detail_area"
+            style="@style/MediaDetailInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/media_detail_time"
+            android:layout_below="@id/media_detail_time"
+            android:layout_marginTop="@dimen/media_detail_info_margin_top"
+            />
+
+        <TextView
+            android:id="@id/media_detail_category"
+            style="@style/MediaDetailInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/media_detail_area"
+            android:layout_below="@id/media_detail_area"
+            android:layout_marginTop="@dimen/media_detail_info_margin_top"
+            />
+
+        <TextView
+            style="@style/MediaDetailInfoText"
+            android:id="@id/media_detail_profile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/media_detail_profile_height"
+            android:layout_alignLeft="@id/media_detail_category"
+            android:layout_below="@id/media_detail_category"
+            android:layout_marginTop="@dimen/media_detail_profile_margin_top"
+            android:ellipsize="end"
+            />
+
+        <GridView
+            android:id="@id/media_detail_tv_serial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/media_detail_profile_margin_top"
+            android:layout_below="@id/media_detail_profile"
+            android:cacheColorHint="#00000000"
+            android:layout_alignLeft="@id/media_detail_category"
+            android:listSelector="@color/transparent"
+            android:numColumns="8" >
+        </GridView>
+    </RelativeLayout>
+
+</LinearLayout>

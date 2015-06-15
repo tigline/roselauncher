@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/air_info_public_background">
+    
+   
+    <FrameLayout 
+	   android:id="@+id/fy_right_view"
+	   android:layout_width="1570px"
+       android:layout_height="980px"
+       android:focusable="false"
+       android:layout_gravity="right">
+       
+       <ImageView
+			android:id="@+id/iv_char_bg"
+			android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="70px"
+	    	android:layout_marginTop="120px"
+	   	 	android:background="#00000000"
+	    	android:src="@drawable/air_info_consume_bg"/>
+       	    
+	</FrameLayout> 
+    
+    
+    <LinearLayout 
+		android:id="@+id/ly_left_menu"
+	    android:layout_width="350px"
+	    android:layout_height="fill_parent"
+	    android:layout_gravity="left"
+	    android:orientation="vertical"
+	    android:background="@drawable/air_info_left_menu_bg">
+	    
+        <TextView
+	   		android:id="@+id/tv_left_menu_title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:background="@drawable/air_info_title_background"
+	        android:text="空调数据统计"
+	        android:textColor="@color/Blue"
+		    android:textSize="26sp"/>
+        
+        <Button
+	   		android:id="@+id/left_menu_btn_energy"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="30dp"
+	        android:text="本月功耗统计"
+	        android:textColor="@color/white"
+		    android:textSize="24sp"
+	        android:background="@drawable/air_info_left_menu_btn_background"/>
+        
+        <Button
+	   		android:id="@+id/left_menu_btn_temperature"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="30dp"
+	        android:text="本月室内温度统计"
+	         android:textColor="@color/white"
+		    android:textSize="24sp"
+	        android:background="@drawable/air_info_left_menu_btn_background"/>
+        
+        <Button
+	   		android:id="@+id/left_menu_btn_on"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="30dp"
+	        android:text="本月运行时间统计"
+	         android:textColor="@color/white"
+		    android:textSize="24sp"
+	        android:background="@drawable/air_info_left_menu_btn_background"/>
+        
+        <Button
+	   		android:id="@+id/left_menu_btn_efficiency"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="30dp"
+	        android:text="本月运行效率分析"
+	        android:textColor="@color/white"
+		    android:textSize="24sp"
+	        android:background="@drawable/air_info_left_menu_btn_background"/>
+        
+        <Button
+	        android:id="@+id/left_menu_btn_back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="60dp"
+	        android:layout_marginRight="40dp"
+	        android:layout_gravity="right"
+	        android:background="#00000000"
+	        android:textColor="@color/air_info_button_text_color"
+		    android:textSize="20sp"
+		    android:text="返回"/>
+       			        	       
+     </LinearLayout>     	    
+    
+</FrameLayout>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_bg"
+    tools:context="com.tcl.launcher.ui.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="@dimen/main_host_width"
+        android:layout_height="@dimen/main_host_height"
+        android:background="@color/host_general_bg" >
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/main_tabhosts"
+        android:layout_marginTop="-20px" >
+    </FrameLayout>
+
+    <com.tcl.launcher.widget.LauncherHost
+        android:id="@id/main_tabhosts"
+        android:layout_width="@dimen/main_host_width"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    </com.tcl.launcher.widget.LauncherHost>
+    
+    <LinearLayout
+        android:layout_toRightOf="@id/main_tabhosts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@id/main_sprite_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/home_bubble_margin_left"
+            android:layout_marginTop="@dimen/home_bubble_margin_top"
+            android:paddingTop="@dimen/home_bubble_padding_top"
+            android:background="@drawable/home_bubble"
+            android:gravity="center_horizontal"
+            android:text="@string/sprite_hello"
+            android:textSize="@dimen/main_host_text_size"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@id/main_sprite_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/home_sprite_margin_left"
+            android:layout_marginTop="@dimen/home_sprite_margin_top"
+            android:background="@drawable/home_robot" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginLeft="@dimen/main_hep_margin_left"
+        android:layout_marginBottom="@dimen/main_hep_margin_bottom"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"
+        android:id="@id/main_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/home_help"
+        android:textColor="@color/white"
+        android:textSize="@dimen/main_host_text_size"
+        android:text="@string/help" />
+
+</RelativeLayout>
